@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Helvetica Neue;
+  src: url('./font/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf');
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: Helvetica Neue,Helvetica,serif;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  width: 100%;
+  color: #292929;
+  line-height: 1.444em;
+}
+body, html {
+  margin: 0;
+  padding: 0;
 }
