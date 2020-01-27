@@ -39,6 +39,9 @@ h1, h2, h3, h4 {
   font-weight: 700;
   margin: 0;
 }
+input:focus, textarea:focus{
+  background-color: #338bf4;
+}
 ::placeholder {
   color: #6496e8;
   opacity: 1; /* Firefox */
@@ -173,7 +176,10 @@ button, input, select, textarea {
   color: #292929;
 }
 .link-button.wide {
-  padding: 18px 80px 14px;
+    padding: 18px 80px 14px;
+  }
+.link-button.wide:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
 }
 .link-button.dark {
   background-color: #142333;
